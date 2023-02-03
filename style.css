@@ -1,0 +1,84 @@
+body{
+    background-color: white;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+}
+table{
+    border: 5px solid violet;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+table th{
+    text-align: center;
+    font-weight: bold;
+    color: blueviolet;
+}
+table tr td.left{
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    color: violet;
+    font-variant-caps: small-caps;
+    padding: 5px;
+}
+table tr td.right{
+    text-align: right;
+    background-color: bisque;
+    color: firebrick;
+    padding: 5px;
+}
+hr{
+    height: 2px;
+    background-color: #ff0000;
+    border: none;
+}
+p{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+    text-shadow: 2px blur brown;
+}
+p a{
+    color: blueviolet;
+    text-decoration: none;
+}
+figure{
+    align-content: center;
+    margin-bottom: 25px;
+}
+figure figcaption{
+    align-content: center;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: chocolate;
+}
+img{
+    align-content: center;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    box-shadow:12px 12px 5px violet,
+            -12px -12px 5px blue;
+}
+q{
+    background-color: darkorchid;
+    color: white;
+    border:2px solid purple;
+    font-style: italic;
+    font-family: 'Trebuchet MS';
+    border-radius: 40px 10px;
+    padding: 10px;
+    align-content: flex-start;
+}
+
